@@ -1,8 +1,27 @@
-# React + Vite
+# Portifolio V3
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## TODO
 
-Currently, two official plugins are available:
+- [ ] Create new Layout
+- [ ] Create new Color Palette
+- [ ] Create routes
+- [ ] Create global components
+- [ ] Implement Linaria
+- [ ] Deploy to GitHub Pages (or any other Free Hosting service...)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+
+Project created in order to show the new experiences learned since the last portifolio publishment and to learn **Linaria** during it's development.
+
+## How to run
+
+1. Install the dependencies: `npm i`
+2. Run the local server: `npm start`
+
+There you go, the project now is up and running on port: **5173**
+
+## Techs
+
+- ReactJS
+- Vite
+- Linaria
