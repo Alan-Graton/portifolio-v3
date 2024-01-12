@@ -62,20 +62,75 @@ function App() {
             </li>
             <li style={{ textAlign: "start" }}>
               Fenix Construction {"(App Mobile)"}
+              <p>
+                Ao fim do projeto pude aprender a desenvolver um app fullstack
+                sozinho, realizar deploys e publicar o app nas lojas: Play Store
+                e App Store.
+              </p>
               <ul>
                 <li>
                   Aplicativo Mobile desenvolvido para a empresa{" "}
                   <strong>Fenix Group of Companies</strong>
                 </li>
                 <p>
-                  Com o portal tendo a equipe de escritório da Fenix, o app foi
-                  desenvolvido visando como usuários os funcionários que
-                  trabalhavam nas contruções e demolições.
+                  Com o portal tendo a equipe de escritório da Fenix como alvo,
+                  o app foi desenvolvido visando como usuários os funcionários
+                  que trabalhavam nas contruções e demolições.
                 </p>
                 <p>
-                  Com o app, os funcionários podem ver seus trabalhos agendados
-                  pelo Fenix Portal.
+                  O Aplicativo é totalmente integrado com o portal, com isso, a
+                  equipe Fenix pode agendar novos trabalhos para seus
+                  funcionários. Os usuário por sua vez podem "bater seus pontos"
+                  tirando uma foto somente se estiverem a pelo menos 10KM do
+                  local de trabalho.
                 </p>
+                <p>
+                  Também é possível visualizar o total de horas realizadas
+                  dentro da quinzena e do fim do mês.
+                </p>
+              </ul>
+              <h5>Tecnologias</h5>
+              <ul>
+                <li>
+                  Frontend
+                  <ul>
+                    <li>React Native</li>
+                    <li>JavaScript</li>
+                    <li>Styled-Components</li>
+                  </ul>
+                </li>
+                <li>
+                  Backend
+                  <ul>
+                    <li>TypeScript</li>
+                    <li>AWS Lambdas</li>
+                    <li>Serverless Framework</li>
+                  </ul>
+                </li>
+                <li>
+                  Banco de Dados
+                  <ul>
+                    <li>MySQL</li>
+                    <li>TypeORM</li>
+                  </ul>
+                </li>
+                <li>
+                  Serviços de Nuvem
+                  <ul>
+                    <li>AWS S3</li>
+                    <li>AWS Lambdas</li>
+                    <li>AWS Cognito</li>
+                  </ul>
+                </li>
+                <li>
+                  Ferramentas
+                  <ul>
+                    <li>DBeaver</li>
+                    <li>GitHub Actions</li>
+                    <li>Expo</li>
+                    <li>EAS</li>
+                  </ul>
+                </li>
               </ul>
             </li>
             <li style={{ textAlign: "start" }}>
@@ -87,6 +142,16 @@ function App() {
                   webview para iOS que redirecionava o usuário para a plataforma{" "}
                   <strong>Médico Online</strong> após usuário realizar seu
                   cadastro e login com sua conta da YouCast.
+                </li>
+              </ul>
+              <h5>Tecnlogias</h5>
+              <ul>
+                <li>
+                  Frontend
+                  <ul>
+                    <li>React Native</li>
+                    <li>JavaScript</li>
+                  </ul>
                 </li>
               </ul>
             </li>
@@ -109,6 +174,41 @@ function App() {
                   <strong>.CSV</strong> e <strong>.XLSX</strong> para serem
                   processados e enviados para o Banco de Dados.
                 </p>
+              </ul>
+              <h5>Tecnologias</h5>
+              <ul>
+                <li>
+                  Backend
+                  <ul>
+                    <li>TypeScript</li>
+                    <li>AWS Scheduled Lambdas</li>
+                    <li>AWS S3 Lambdas</li>
+                    <li>Serverless Framework</li>
+                  </ul>
+                </li>
+                <li>
+                  Banco de Dados
+                  <ul>
+                    <li>MySQL</li>
+                    <li>TypeORM</li>
+                  </ul>
+                </li>
+                <li>
+                  Serviços de Nuvem
+                  <ul>
+                    <li>AWS Amplify</li>
+                    <li>AWS S3</li>
+                    <li>AWS Lambdas</li>
+                    <li>AWS Cognito</li>
+                  </ul>
+                </li>
+                <li>
+                  Ferramentas
+                  <ul>
+                    <li>DBeaver</li>
+                    <li>GitHub Actions</li>
+                  </ul>
+                </li>
               </ul>
             </li>
           </ul>
