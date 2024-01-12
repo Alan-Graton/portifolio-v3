@@ -13,6 +13,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+header {
+  position: fixed;
+  right: 0;
+  padding: 10px;
+}
+
+@media (max-width: 320px) {
+  header {
+    bottom: 5em;
+  }
+}
+
 body {
   margin: 0;
   display: flex;

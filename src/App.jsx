@@ -3,6 +3,9 @@ import "./App.css";
 function App() {
   return (
     <>
+      <header>
+        <button></button>
+      </header>
       <div className="card">
         <h1>Sobre mim</h1>
         <p>
@@ -349,6 +352,7 @@ function App() {
           <p>Estudando no Goethe Institut há ~2 anos</p>
         </section>
       </div>
+      <footer></footer>
     </>
   );
 }
