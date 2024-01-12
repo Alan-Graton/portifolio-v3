@@ -1,35 +1,158 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        <h1>Experiências</h1>
+        <section>
+          <h2>Valiant Group</h2>
+          <h3>Descrição</h3>
+          <p>
+            Minha primeira e atual experiência profissional, onde pude
+            aprender/ensinar diversas tecnologias.
+          </p>
+          <h4>Projetos</h4>
+          <ul>
+            <li style={{ textAlign: "start" }}>
+              Fenix Portal {"(Portal Web)"}
+              <p>
+                Entrei no projeto para dar suporte ao desenvolvedor inicial{" "}
+                {"(pleno)"} por questões do cronograma.
+              </p>
+              <p>
+                Foi necessário desenvolver uma Aplicação Web Fullstack para a
+                empresa <strong>Fenix Group of Companies</strong> do Canada para
+                gerenciamento de pessoal, projetos e salários de seus
+                empregrados.
+              </p>
+              <p>
+                Participei em diversos desenvolvimentos de melhorias e ajustes,
+                também fiquei encarregado de integrar o portal com a API do
+                QuickBooks, o qual era o sistema de contabilidade utilizado pelo
+                cliente.
+              </p>
+              <h5>Tecnologias</h5>
+              <ul>
+                <li>
+                  Frontend
+                  <ul>
+                    <li>ReactJS</li>
+                    <li>AWS Cognito</li>
+                    <li>AWS Amplify</li>
+                  </ul>
+                </li>
+                <li>
+                  Backend
+                  <ul>
+                    <li>Typescript</li>
+                    <li>AWS Lambda</li>
+                    <li>Serverless Framework</li>
+                    <li>QuickBooks API</li>
+                  </ul>
+                </li>
+                <li>
+                  Banco de Dados
+                  <ul>
+                    <li>MySQL</li>
+                    <li>DBeaver</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li style={{ textAlign: "start" }}>
+              Fenix Construction {"(App Mobile)"}
+              <ul>
+                <li>
+                  Aplicativo Mobile desenvolvido para a empresa{" "}
+                  <strong>Fenix Group of Companies</strong>
+                </li>
+                <p>
+                  Com o portal tendo a equipe de escritório da Fenix, o app foi
+                  desenvolvido visando como usuários os funcionários que
+                  trabalhavam nas contruções e demolições.
+                </p>
+                <p>
+                  Com o app, os funcionários podem ver seus trabalhos agendados
+                  pelo Fenix Portal.
+                </p>
+              </ul>
+            </li>
+            <li style={{ textAlign: "start" }}>
+              Telemedicina {"E-saúde"} {"(App Mobile)"}
+              <ul>
+                <li>
+                  Aplicativo criado em parceiria com a <strong>YouCast</strong>,
+                  onde foi desenvolvido apenas o frontend de uma aplicação
+                  webview para iOS que redirecionava o usuário para a plataforma{" "}
+                  <strong>Médico Online</strong> após usuário realizar seu
+                  cadastro e login com sua conta da YouCast.
+                </li>
+              </ul>
+            </li>
+            <li style={{ textAlign: "start" }}>
+              Kondzilla {"(Backend)"}
+              <ul>
+                <li>
+                  Porjeto onde foi desenvolvido um Backend que integrava com um
+                  Dashboard BI.
+                </li>
+
+                <p>
+                  Fiquei encarregado de desenvolver o Backend que buscava
+                  fiscais da empresa em diversas API's para popular um Banco de
+                  Dados MySQL.
+                </p>
+                <p>
+                  Também foi necessário desenvolver um pequeno formulário para
+                  que os usuário pudessem carregar arquivos{" "}
+                  <strong>.CSV</strong> e <strong>.XLSX</strong> para serem
+                  processados e enviados para o Banco de Dados.
+                </p>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Grupo Intelsis</h2>
+          <h3>Descrição</h3>
+          <p>
+            Participei em projetos SAP através de uma parceria entre a{" "}
+            <strong>Valiant Group</strong> & <strong>Grupo Intelsis</strong>.
+          </p>
+          <h4>Projetos</h4>
+          <ul>
+            <li style={{ textAlign: "start" }}>LATAM</li>
+            <ul>
+              <li style={{ textAlign: "start" }}>
+                Projeto onde pude aprender <strong>SAP CPI</strong> durante o
+                desenvolvimento de um projeto para a LATAM.
+                <br />
+                <p>
+                  Foi necessário criar vários fluxos no CPI para realizar a
+                  integração entre 2 plataformas onde a empresa cliente realiza
+                  a compra de peças de suas aeronaves.
+                </p>
+              </li>
+            </ul>
+            <li style={{ textAlign: "start" }}>Vale</li>
+            <ul>
+              <li style={{ textAlign: "start" }}>
+                Projeto onde pude aprender <strong>Fiori UI5</strong> durante
+                desenvolvimento do projeto.
+              </li>
+              <p>
+                Participei em desenvolvimentos de diversos <strong>GAPs</strong>{" "}
+                do projeto inicial. Sigo com o desenvolvimento atualmente com
+                auxílio de outro desenvolvedor Fiori
+              </p>
+            </ul>
+          </ul>
+        </section>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
