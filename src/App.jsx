@@ -305,6 +305,10 @@ function App() {
               <li style={{ textAlign: "start" }}>
                 Projeto onde pude aprender <strong>SAP CPI</strong> durante o
                 desenvolvimento de um projeto para a LATAM.
+                <p>
+                  Trabalhei em uma equipe de Chilenos. Tive que participar de
+                  reuniões onde foi necessário falar em Espanhol e Inglês.{" "}
+                </p>
                 <br />
                 <p>
                   Foi necessário criar vários fluxos no CPI para realizar a
@@ -326,6 +330,23 @@ function App() {
               </p>
             </ul>
           </ul>
+        </section>
+      </div>
+      <div className="card">
+        <h1>Idiomas</h1>
+        <section>
+          <h2>Inglês</h2>
+          <p>Fluente</p>
+          <p>Estudei no CNA por 6 anos</p>
+        </section>
+        <section>
+          <h2>Espanhol</h2>
+          <p>Intermediário</p>
+          <p>Estudei no CNA por 2 anos</p>
+        </section>
+        <section>
+          <h2>Alemão</h2>
+          <p>Estudando no Goethe Institut há ~2 anos</p>
         </section>
       </div>
     </>
