@@ -4,6 +4,90 @@ function App() {
   return (
     <>
       <div className="card">
+        <h1>Sobre mim</h1>
+        <p>
+          Desenvolvedor Fullstack com ~3 anos de experiência. Nesses anos pude
+          aprender sobre a stack utilizada na Valiant Group.
+        </p>
+        <p>
+          Sou comprometido com minhas tarefas, sei trabalhar em equipe e adoro
+          novos desafios e não gosto de ficar ocioso. Estou sempre lendo,
+          assistindo e praticando algo da minha área.
+        </p>
+      </div>
+      <div className="card">
+        <h1>Minha jornada</h1>
+        <p>
+          Fiz a faculdade de ADS na UNIP de 2021 - 2022 realizando projetos em
+          C++ e C#.
+        </p>
+        <p>
+          No meu 3º semestre na faculdade tive a oportunidade de entrar na VG
+          sem nenhum conhecimento de Desenvolvimento Web/Mobile.
+        </p>
+      </div>
+      <div className="card">
+        <h1>Minhas Tecnologias</h1>
+        <ul>
+          <li style={{ textAlign: "start" }}>
+            Frontend
+            <ul>
+              <li>React</li>
+              <li>React-Native</li>
+              <li>CSS</li>
+              <li>SCSS</li>
+              <li>Styled-Components</li>
+              <li>Gluestack UI - Estudando</li>
+              <li>Linaria - Estudando</li>
+            </ul>
+          </li>
+          <li style={{ textAlign: "start" }}>
+            Backend
+            <ul>
+              <li>NodeJS</li>
+              <li>TypeScript</li>
+              <li>AWS Lambdas</li>
+              <li>Serverless Framework</li>
+              <li>TypeORM</li>
+            </ul>
+          </li>
+          <li style={{ textAlign: "start" }}>
+            Nuvem
+            <ul>
+              <li>
+                AWS
+                <ul>
+                  <li>AWS Lambdas</li>
+                  <li>AWS Amplify</li>
+                  <li>AWS S3</li>
+                  <li>AWS Cognito</li>
+                </ul>
+              </li>
+              <li>
+                GCP
+                <ul>
+                  <li>Cloud Functions</li>
+                  <li>Bigquery</li>
+                  <li>Cloud Build</li>
+                  <li>App Engine</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li style={{ textAlign: "start" }}>
+            Ferramentas
+            <ul>
+              <li>DBeaver</li>
+              <li>Postman</li>
+              <li>Insomnia</li>
+              <li>Git</li>
+              <li>GitHub Actions</li>
+              <li>CI/CD</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div className="card">
         <h1>Experiências</h1>
         <section>
           <h2>Valiant Group</h2>
