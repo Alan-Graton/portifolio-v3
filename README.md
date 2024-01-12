@@ -7,7 +7,7 @@
 - [ ] Create routes
 - [ ] Create global components
 - [ ] Implement Linaria
-- [ ] Deploy to GitHub Pages (or any other Free Hosting service...)
+- [X] Deploy to GitHub Pages (or any other Free Hosting service...)
 
 ## Description
 
