@@ -23,7 +23,9 @@ function App() {
         </p>
         <p>
           No meu 3º semestre na faculdade tive a oportunidade de entrar na VG
-          sem nenhum conhecimento de Desenvolvimento Web/Mobile.
+          sem nenhum conhecimento de Desenvolvimento Web/Mobile e de nenhuma
+          tecnologia em sua stack. Com isso, fui ganhando experiências conforme
+          minhas atuações nos projetos.
         </p>
       </div>
       <div className="card">
@@ -101,20 +103,16 @@ function App() {
             <li style={{ textAlign: "start" }}>
               Fenix Portal {"(Portal Web)"}
               <p>
-                Entrei no projeto para dar suporte ao desenvolvedor inicial{" "}
-                {"(pleno)"} por questões do cronograma.
+                <strong>Paritcipação: </strong>Ingressei no projeto já em
+                andamento, realizando melhorias, ajustes e uma integração com a
+                API da plataforma de contabildiade QuickBooks com
+                desenvolvedores Plenos e Juniores.
               </p>
               <p>
-                Foi necessário desenvolver uma Aplicação Web Fullstack para a
-                empresa <strong>Fenix Group of Companies</strong> do Canada para
-                gerenciamento de pessoal, projetos e salários de seus
-                empregrados.
-              </p>
-              <p>
-                Participei em diversos desenvolvimentos de melhorias e ajustes,
-                também fiquei encarregado de integrar o portal com a API do
-                QuickBooks, o qual era o sistema de contabilidade utilizado pelo
-                cliente.
+                <strong>Descrição:</strong> Portal Web para a empresa{" "}
+                <strong>Fenix Group of Companies </strong>onde é possível
+                controlar seus projetos, salários de funcionários e agendamento
+                de trabalhos.
               </p>
               <h5>Tecnologias</h5>
               <ul>
@@ -122,6 +120,7 @@ function App() {
                   Frontend
                   <ul>
                     <li>ReactJS</li>
+                    <li>CoreUI ReactJS {"(template)"}</li>
                     <li>AWS Cognito</li>
                     <li>AWS Amplify</li>
                   </ul>
@@ -147,32 +146,27 @@ function App() {
             <li style={{ textAlign: "start" }}>
               Fenix Construction {"(App Mobile)"}
               <p>
-                Ao fim do projeto pude aprender a desenvolver um app fullstack
-                sozinho, realizar deploys e publicar o app nas lojas: Play Store
-                e App Store.
+                <strong>Participação:</strong> Único participante do projeto,
+                sendo o primeiro desenvolvimento mobile, realizando builds,
+                deploys do Frontend e Backend e publicação dos app nas lojas:
+                Play Store e App Store.
               </p>
-              <ul>
-                <li>
-                  Aplicativo Mobile desenvolvido para a empresa{" "}
-                  <strong>Fenix Group of Companies</strong>
-                </li>
-                <p>
-                  Com o portal tendo a equipe de escritório da Fenix como alvo,
-                  o app foi desenvolvido visando como usuários os funcionários
-                  que trabalhavam nas contruções e demolições.
-                </p>
-                <p>
-                  O Aplicativo é totalmente integrado com o portal, com isso, a
-                  equipe Fenix pode agendar novos trabalhos para seus
-                  funcionários. Os usuário por sua vez podem "bater seus pontos"
-                  tirando uma foto somente se estiverem a pelo menos 10KM do
-                  local de trabalho.
-                </p>
-                <p>
-                  Também é possível visualizar o total de horas realizadas
-                  dentro da quinzena e do fim do mês.
-                </p>
-              </ul>
+              <p>
+                <strong>Descrição:</strong> Aplicativo para funcionários de
+                campo, possibilitando a verificação de seus trabalhos agendados,
+                cartão de ponto, horas tralhadas e salário.
+              </p>
+              <p>
+                O Aplicativo é totalmente integrado com o portal, com isso, a
+                equipe Fenix pode agendar novos trabalhos para seus
+                funcionários. Os usuário por sua vez podem "bater seus pontos"
+                tirando uma foto somente se estiverem a pelo menos 10KM do local
+                de trabalho.
+              </p>
+              <p>
+                Também é possível visualizar o total de horas realizadas dentro
+                da quinzena e do fim do mês.
+              </p>
               <h5>Tecnologias</h5>
               <ul>
                 <li>
@@ -211,23 +205,25 @@ function App() {
                   <ul>
                     <li>DBeaver</li>
                     <li>GitHub Actions</li>
-                    <li>Expo</li>
+                    <li>Expo SDK 48</li>
                     <li>EAS</li>
                   </ul>
                 </li>
               </ul>
+              <p>
+                <strong>OBS:</strong> Disponível para Android e iOS.
+              </p>
             </li>
             <li style={{ textAlign: "start" }}>
               Telemedicina {"E-saúde"} {"(App Mobile)"}
-              <ul>
-                <li>
-                  Aplicativo criado em parceiria com a <strong>YouCast</strong>,
-                  onde foi desenvolvido apenas o frontend de uma aplicação
-                  webview para iOS que redirecionava o usuário para a plataforma{" "}
-                  <strong>Médico Online</strong> após usuário realizar seu
-                  cadastro e login com sua conta da YouCast.
-                </li>
-              </ul>
+              <p>
+                <strong>Participação:</strong> Único participante do projeto.
+              </p>
+              <p>
+                <strong>Descrição:</strong> Aplicativo WebView voltado para a
+                área médica com acesso ao portal Médico Online para agendamento
+                e consultas online.
+              </p>
               <h5>Tecnlogias</h5>
               <ul>
                 <li>
@@ -241,24 +237,21 @@ function App() {
             </li>
             <li style={{ textAlign: "start" }}>
               Kondzilla {"(Backend)"}
-              <ul>
-                <li>
-                  Porjeto onde foi desenvolvido um Backend que integrava com um
-                  Dashboard BI.
-                </li>
-
-                <p>
-                  Fiquei encarregado de desenvolver o Backend que buscava
-                  fiscais da empresa em diversas API's para popular um Banco de
-                  Dados MySQL.
-                </p>
-                <p>
-                  Também foi necessário desenvolver um pequeno formulário para
-                  que os usuário pudessem carregar arquivos{" "}
-                  <strong>.CSV</strong> e <strong>.XLSX</strong> para serem
-                  processados e enviados para o Banco de Dados.
-                </p>
-              </ul>
+              <p>
+                <strong>Participação:</strong> Atuei no projeto com um
+                desenvolvedor BI e com um Adm de Banco de Dados. Fiquei
+                responsável pelo Backend e de um formulário para envio de
+                arquivos.
+              </p>
+              <p>
+                <strong>Descrição:</strong> Foi necessário criar Lambdas
+                Agendadas para se comunicarem com as APIs das plataformas usadas
+                pelo cliente para que seus dados fossem salvos em um banco na
+                AWS. Para poder salvar os arquivos enviados pelo cliente foi
+                criado um formulário que aceitava Excel e CSV além de ter sido
+                necessário a criação de alguns algoritmos para finalizar as
+                conversão dos arquivos para JSON.
+              </p>
               <h5>Tecnologias</h5>
               <ul>
                 <li>
