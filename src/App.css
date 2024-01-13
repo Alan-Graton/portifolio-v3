@@ -15,6 +15,42 @@
   padding: 2em;
 }
 
+.tech-cards {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  padding: 6px;
+
+  gap: 2.5em;
+}
+
+.tech-card {
+  cursor: pointer;
+
+  width: 70px;
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 5px;
+
+  background-color: #ffffff10;
+  backdrop-filter: blur(5px);
+
+  border-radius: 8px;
+  border: 1px solid lightgray;
+}
+
+.tech-logo {
+  width: 50px;
+  height: 50px;
+}
+
 .fab-container {
   position: fixed;
   right: 0;
@@ -33,7 +69,7 @@ button {
 
   outline: none;
 
-  border: 2px solid rgba(82, 82, 82, 0.815);
+  border: 2px solid #525252d0;
 
   border-radius: 8px;
 

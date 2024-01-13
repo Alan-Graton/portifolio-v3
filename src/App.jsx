@@ -1,5 +1,31 @@
 import "./App.css";
 
+// Frontend
+import reactsvg from "./assets/react.svg";
+import fioriui5svg from "./assets/fioriui5.svg";
+import styledcomponentssvg from "./assets/styledcomponents.svg";
+import styledcomponentspng from "./assets/styledcomponents.png";
+import coreuisvg from "./assets/coreui.svg";
+import gluestackuisvg from "./assets/gluestackui.png";
+import linariasvg from "./assets/linaria.svg";
+
+// Backend
+import nodesvg from "./assets/nodejs.svg";
+import typescriptsvg from "./assets/typescript.svg";
+import awslambdasvg from "./assets/awslambda.svg";
+import serverlesssvg from "./assets/serverless.svg";
+import typeormsvg from "./assets/typeorm.png";
+
+// Clouds
+import awssvg from "./assets/aws.svg";
+import gcpsvg from "./assets/gcp.svg";
+
+// Tools
+import dbeaverpng from "./assets/dbeaver.png";
+import postmansvg from "./assets/postman.svg";
+import insomniasvg from "./assets/insomnia.svg";
+import git from "./assets/git.svg";
+
 function App() {
   return (
     <>
@@ -7,10 +33,11 @@ function App() {
         <button style={{ float: "right" }}></button>
       </div>
       <div className="card">
+        {/* TODO: Add github profile pic */}
         <h1>Sobre mim</h1>
         <p>
           Desenvolvedor Fullstack com ~3 anos de experiência. Nesses anos pude
-          aprender sobre a stack utilizada na Valiant Group.
+          aprender sobre a stack utilizada na Valiant Group {"(VG)"}.
         </p>
         <p>
           Sou comprometido com minhas tarefas, sei trabalhar em equipe e adoro
@@ -18,67 +45,98 @@ function App() {
           assistindo e praticando algo da minha área.
         </p>
       </div>
-      {/* <div className="card">
-        <h1>Minha jornada</h1>
-        <p>
-          Fiz a faculdade de ADS na UNIP de 2021 - 2022 realizando projetos em
-          C++ e C#.
-        </p>
-        <p>
-          No meu 3º semestre na faculdade tive a oportunidade de entrar na VG
-          sem nenhum conhecimento de Desenvolvimento Web/Mobile e de nenhuma
-          tecnologia em sua stack. Com isso, fui ganhando experiências conforme
-          minhas atuações nos projetos.
-        </p>
-      </div> */}
       <div className="card">
         <h1>Minhas Tecnologias</h1>
-        <ul>
-          <li style={{ textAlign: "start" }}>
-            Frontend
-            <ul>
-              <li>React</li>
-              <li>React-Native</li>
-              <li>CSS</li>
-              <li>SCSS</li>
-              <li>Styled-Components</li>
-              <li>Gluestack UI - Estudando</li>
-              <li>Linaria - Estudando</li>
-            </ul>
-          </li>
-          <li style={{ textAlign: "start" }}>
-            Backend
-            <ul>
-              <li>NodeJS</li>
-              <li>TypeScript</li>
-              <li>AWS Lambdas</li>
-              <li>Serverless Framework</li>
-              <li>TypeORM</li>
-            </ul>
-          </li>
-          <li style={{ textAlign: "start" }}>
-            Nuvem
-            <ul>
-              <li>
-                AWS
-                <ul>
-                  <li>AWS Lambdas</li>
-                  <li>AWS Amplify</li>
-                  <li>AWS S3</li>
-                  <li>AWS Cognito</li>
-                </ul>
-              </li>
-              <li>
-                GCP
-                <ul>
-                  <li>Cloud Functions</li>
-                  <li>Bigquery</li>
-                  <li>Cloud Build</li>
-                  <li>App Engine</li>
-                </ul>
-              </li>
-            </ul>
-          </li>
+        <div className="tech-cards">
+          <div className="tech-card">
+            <img className="tech-logo" src={reactsvg} alt="React logo" />
+          </div>
+          <div className="tech-card">
+            <img className="tech-logo" src={reactsvg} alt="React-Native logo" />
+          </div>
+          <div className="tech-card">
+            <img className="tech-logo" src={fioriui5svg} alt="Fiori UI5 logo" />
+          </div>
+          <div className="tech-card">
+            <img
+              className="tech-logo"
+              style={{ width: "55px", height: "55px" }}
+              src={styledcomponentspng}
+              alt="Styled-Components logo"
+            />
+          </div>
+          <div className="tech-card">
+            <img
+              className="tech-logo"
+              style={{ width: "65px", height: "65px" }}
+              src={coreuisvg}
+              alt="CoreUI logo"
+            />
+          </div>
+          <div className="tech-card">
+            <img
+              className="tech-logo"
+              src={gluestackuisvg}
+              alt="Gluestack UI logo"
+            />
+          </div>
+          <div className="tech-card">
+            <img
+              className="tech-logo"
+              style={{ width: "60px", height: "60px" }}
+              src={linariasvg}
+              alt="Linaria logo"
+            />
+          </div>
+          <div className="tech-card">
+            <img className="tech-logo" src={nodesvg} alt="NodeJS logo" />
+          </div>
+          <div className="tech-card">
+            <img
+              className="tech-logo"
+              src={typescriptsvg}
+              alt="TypeScript logo"
+            />
+          </div>
+          <div className="tech-card">
+            <img
+              className="tech-logo"
+              src={awslambdasvg}
+              alt="AWS Lambdas logo"
+            />
+          </div>
+          <div className="tech-card">
+            <img
+              className="tech-logo"
+              src={serverlesssvg}
+              alt="Serverless Framework logo"
+            />
+          </div>
+          <div className="tech-card">
+            <img className="tech-logo" src={typeormsvg} alt="TypeORM logo" />
+          </div>
+          <div className="tech-card">
+            <img className="tech-logo" src={awssvg} alt="AWS logo" />
+          </div>
+          <div className="tech-card">
+            <img className="tech-logo" src={gcpsvg} alt="GCP logo" />
+          </div>
+          <div className="tech-card">
+            <img className="tech-logo" src={dbeaverpng} alt="DBeaver logo" />
+          </div>
+          <div className="tech-card">
+            <img className="tech-logo" src={postmansvg} alt="Postman logo" />
+          </div>
+          <div className="tech-card">
+            <img className="tech-logo" src={insomniasvg} alt="Insomnia logo" />
+          </div>
+          <div className="tech-card">
+            <img className="tech-logo" src={git} alt="Git logo" />
+          </div>
+        </div>
+
+        {/* <ul>
+          
           <li style={{ textAlign: "start" }}>
             Ferramentas
             <ul>
@@ -90,7 +148,7 @@ function App() {
               <li>CI/CD</li>
             </ul>
           </li>
-        </ul>
+        </ul> */}
       </div>
       <div className="card">
         <h1>Experiências</h1>
