@@ -1,5 +1,4 @@
 :root {
-  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   font-family: Poppins, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -37,13 +36,9 @@ html {
 header {
   position: fixed;
   right: 0;
-  padding: 10px;
-}
+  padding: 5px;
 
-@media (max-width: 320px) {
-  header {
-    bottom: 5em;
-  }
+  width: 100%;
 }
 
 body {

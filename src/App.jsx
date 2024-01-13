@@ -3,9 +3,9 @@ import "./App.css";
 function App() {
   return (
     <>
-      <header>
-        <button></button>
-      </header>
+      <div className="fab-container">
+        <button style={{ float: "right" }}></button>
+      </div>
       <div className="card">
         <h1>Sobre mim</h1>
         <p>
@@ -18,7 +18,7 @@ function App() {
           assistindo e praticando algo da minha área.
         </p>
       </div>
-      <div className="card">
+      {/* <div className="card">
         <h1>Minha jornada</h1>
         <p>
           Fiz a faculdade de ADS na UNIP de 2021 - 2022 realizando projetos em
@@ -30,7 +30,7 @@ function App() {
           tecnologia em sua stack. Com isso, fui ganhando experiências conforme
           minhas atuações nos projetos.
         </p>
-      </div>
+      </div> */}
       <div className="card">
         <h1>Minhas Tecnologias</h1>
         <ul>

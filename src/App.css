@@ -15,6 +15,18 @@
   padding: 2em;
 }
 
+.fab-container {
+  position: fixed;
+  right: 0;
+  padding: 5px;
+}
+
+@media (max-width: 320px) {
+  .fab-container {
+    bottom: 5em;
+  }
+}
+
 button {
   cursor: pointer;
   padding: 1em;
