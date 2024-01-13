@@ -14,3 +14,89 @@
 .card {
   padding: 2em;
 }
+
+.tech-cards {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  padding: 6px;
+
+  gap: 2.5em;
+}
+
+.tech-card {
+  cursor: pointer;
+
+  width: 70px;
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 5px;
+
+  background-color: #ffffff10;
+  backdrop-filter: blur(5px);
+
+  border-radius: 8px;
+  border: 1px solid lightgray;
+}
+
+.tech-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.fab-container {
+  position: fixed;
+  right: 0;
+  padding: 5px;
+}
+
+@media (max-width: 320px) {
+  .fab-container {
+    bottom: 5em;
+  }
+}
+
+button {
+  cursor: pointer;
+  padding: 1em;
+
+  outline: none;
+
+  border: 2px solid #525252d0;
+
+  border-radius: 8px;
+
+  font-weight: bold;
+  font-size: 16px;
+
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+}
+
+button::before {
+  content: '"Just call me maybe"';
+
+  padding: 1em;
+
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 320px) {
+  button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  button::before {
+    content: "";
+  }
+}
