@@ -4,8 +4,10 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: #ffffffde;
   background-color: #242424;
+
+  letter-spacing: 1px;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -50,9 +52,20 @@ body {
   min-height: 100vh;
 }
 
+input, textarea, button {
+  resize: none;
+
+  font-family: Poppins, sans-serif;
+  letter-spacing: 2px;
+}
+
 h1 {
   font-size: 2em;
   line-height: 1.1;
+}
+
+button {
+  cursor: pointer;
 }
 
 @media (prefers-color-scheme: light) {
