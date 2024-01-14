@@ -16,7 +16,6 @@
 }
 
 .tech-cards {
-
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -28,8 +27,6 @@
 }
 
 .tech-card {
-  cursor: pointer;
-
   width: 70px;
   height: 70px;
 
@@ -40,10 +37,11 @@
   padding: 5px;
 
   background-color: #ffffff10;
-  backdrop-filter: blur(5px);
 
   border-radius: 8px;
-  border: 1px solid lightgray;
+  outline: 1px solid #ffffff46;
+
+  transition: all 0.2s ease-in-out;
 }
 
 .tech-logo {
@@ -51,19 +49,47 @@
   height: 50px;
 }
 
+.tech-card:hover {
+  outline: 1px solid #ffffff;
+
+  transform: translateY(-5px);
+}
+
+.guestbook {
+  position: absolute;
+
+  display: none;
+
+  top: -2px;
+  left: 7px;
+  right: 0;
+  bottom: 0;
+
+  width: 70%;
+  align-self: center;
+
+  transition: all 0.2s ease-in-out;
+}
+
 .fab-container {
   position: fixed;
   right: 0;
   padding: 5px;
+
+  z-index: 1;
 }
 
 @media (max-width: 580px) {
+  .guestbook {
+    display: block;
+  }
+
   .fab-container {
-    bottom: 5em;
+    bottom: 6.5em;
   }
 }
 
-button {
+.guestbook-btn {
   cursor: pointer;
   padding: 1em;
 
@@ -78,9 +104,15 @@ button {
 
   background-color: transparent;
   backdrop-filter: blur(5px);
+
+  transition: all 0.2s ease-in-out;
 }
 
-button::before {
+.guestbook-btn:hover {
+  border: 2px solid #ffffff;
+}
+
+.guestbook-btn::before {
   content: '"Just call me maybe"';
 
   padding: 1em;
@@ -90,13 +122,13 @@ button::before {
 }
 
 @media (max-width: 580px) {
-  button {
+  .guestbook-btn {
     width: 50px;
     height: 50px;
     border-radius: 50%;
   }
 
-  button::before {
+  .guestbook-btn::before {
     content: "";
   }
 }

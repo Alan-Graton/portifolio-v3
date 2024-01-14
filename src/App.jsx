@@ -1,9 +1,10 @@
+import React from "react";
+
 import "./App.css";
 
 // Frontend
 import reactsvg from "./assets/react.svg";
 import fioriui5svg from "./assets/fioriui5.svg";
-import styledcomponentssvg from "./assets/styledcomponents.svg";
 import styledcomponentspng from "./assets/styledcomponents.png";
 import coreuisvg from "./assets/coreui.svg";
 import gluestackuisvg from "./assets/gluestackui.png";
@@ -26,11 +27,29 @@ import postmansvg from "./assets/postman.svg";
 import insomniasvg from "./assets/insomnia.svg";
 import git from "./assets/git.svg";
 
+import guestbooksvg from "./assets/guestbook.svg";
+
+import { ContactModal } from "./components/ContactModal";
+
 function App() {
+  const [modalVisible, setModalVisible] = React.useState(false);
+
   return (
     <>
+      <ContactModal visible={modalVisible} setVisible={setModalVisible} />
       <div className="fab-container">
-        <button style={{ float: "right" }}></button>
+        <button
+          className="guestbook-btn"
+          onClick={() => {
+            setModalVisible(true);
+          }}
+        >
+          <img
+            className="tech-logo guestbook"
+            src={guestbooksvg}
+            alt="Guest Book icon"
+          />
+        </button>
       </div>
       <div className="card">
         {/* TODO: Add github profile pic */}
@@ -48,16 +67,16 @@ function App() {
       <div className="card">
         <h1>Minhas Tecnologias</h1>
         <div className="tech-cards">
-          <div className="tech-card">
+          <div className="tech-card frontend">
             <img className="tech-logo" src={reactsvg} alt="React logo" />
           </div>
-          <div className="tech-card">
+          <div className="tech-card frontend">
             <img className="tech-logo" src={reactsvg} alt="React-Native logo" />
           </div>
-          <div className="tech-card">
+          <div className="tech-card frontend">
             <img className="tech-logo" src={fioriui5svg} alt="Fiori UI5 logo" />
           </div>
-          <div className="tech-card">
+          <div className="tech-card frontend">
             <img
               className="tech-logo"
               style={{ width: "55px", height: "55px" }}
@@ -65,7 +84,7 @@ function App() {
               alt="Styled-Components logo"
             />
           </div>
-          <div className="tech-card">
+          <div className="tech-card frontend">
             <img
               className="tech-logo"
               style={{ width: "65px", height: "65px" }}
@@ -73,14 +92,14 @@ function App() {
               alt="CoreUI logo"
             />
           </div>
-          <div className="tech-card">
+          <div className="tech-card frontend">
             <img
               className="tech-logo"
               src={gluestackuisvg}
               alt="Gluestack UI logo"
             />
           </div>
-          <div className="tech-card">
+          <div className="tech-card frontend">
             <img
               className="tech-logo"
               style={{ width: "60px", height: "60px" }}
@@ -134,21 +153,6 @@ function App() {
             <img className="tech-logo" src={git} alt="Git logo" />
           </div>
         </div>
-
-        {/* <ul>
-          
-          <li style={{ textAlign: "start" }}>
-            Ferramentas
-            <ul>
-              <li>DBeaver</li>
-              <li>Postman</li>
-              <li>Insomnia</li>
-              <li>Git</li>
-              <li>GitHub Actions</li>
-              <li>CI/CD</li>
-            </ul>
-          </li>
-        </ul> */}
       </div>
       <div className="card">
         <h1>Experiências</h1>
@@ -410,7 +414,6 @@ function App() {
           <p>Estudando no Goethe Institut há ~2 anos</p>
         </section>
       </div>
-      <footer></footer>
     </>
   );
 }
