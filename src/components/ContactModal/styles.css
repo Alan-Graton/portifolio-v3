@@ -25,6 +25,7 @@
   background-color: #222222;
 
   width: 80%;
+  max-width: 500px;
 }
 
 .contact-modal .content {
@@ -98,7 +99,7 @@
 
   padding: 10px;
 
-  width: 30%;
+  width: 100%;
 }
 
 .cancel-btn {
