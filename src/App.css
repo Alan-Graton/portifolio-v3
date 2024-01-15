@@ -79,16 +79,6 @@
   z-index: 1;
 }
 
-@media (max-width: 580px) {
-  .guestbook {
-    display: block;
-  }
-
-  .fab-container {
-    bottom: 6.5em;
-  }
-}
-
 .guestbook-btn {
   cursor: pointer;
   padding: 1em;
@@ -121,7 +111,46 @@
   height: 50px;
 }
 
+.idiom-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  padding: 6px;
+
+  gap: 2.5em;
+}
+
+.idiom-card {
+  background-color: #ffffff10;
+
+  width: 15em;
+  height: 15em;
+
+  border-radius: 8px;
+  outline: 1px solid #ffffff46;
+
+  padding: 10px;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.idiom-card:hover {
+  transform: translateY(-5px);
+
+  outline: 1px solid #ffffff;
+}
+
+.flags {
+  width: 70px;
+}
+
 @media (max-width: 580px) {
+  .guestbook {
+    display: block;
+  }
+
   .guestbook-btn {
     width: 50px;
     height: 50px;
@@ -130,5 +159,9 @@
 
   .guestbook-btn::before {
     content: "";
+  }
+
+  .fab-container {
+    bottom: 6.5em;
   }
 }

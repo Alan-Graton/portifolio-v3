@@ -29,6 +29,10 @@ import git from "./assets/git.svg";
 
 import guestbooksvg from "./assets/guestbook.svg";
 
+import english from "./assets/english.svg";
+import spanish from "./assets/spanish.svg";
+import german from "./assets/german.svg";
+
 import { ContactModal } from "./components/ContactModal";
 
 function App() {
@@ -399,20 +403,23 @@ function App() {
       </div>
       <div className="card">
         <h1>Idiomas</h1>
-        <section>
-          <h2>Inglês</h2>
-          <p>Fluente</p>
-          <p>Estudei no CNA por 6 anos</p>
-        </section>
-        <section>
-          <h2>Espanhol</h2>
-          <p>Intermediário</p>
-          <p>Estudei no CNA por 2 anos</p>
-        </section>
-        <section>
-          <h2>Alemão</h2>
-          <p>Estudando no Goethe Institut há ~2 anos</p>
-        </section>
+        <div className="idiom-cards">
+          <div className="idiom-card english">
+            <img style={{ width: 70 }} src={english} alt="USA flag" />
+            <p>Fluente</p>
+            <p>Estudei no CNA por 6 anos</p>
+          </div>
+          <div className="idiom-card spanish">
+            <img style={{ width: 70 }} src={spanish} alt="Spain flag" />
+            <p>Intermediário</p>
+            <p>Estudei no CNA por 2 anos</p>
+          </div>
+          <div className="idiom-card german">
+            <img style={{ width: 70 }} src={german} alt="Germany flag" />
+            <p>Intermediário</p>
+            <p>Estudando no Goethe Institut há ~2 anos</p>
+          </div>
+        </div>
       </div>
     </>
   );
