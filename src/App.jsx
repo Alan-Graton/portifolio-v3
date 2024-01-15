@@ -27,34 +27,21 @@ import postmansvg from "./assets/postman.svg";
 import insomniasvg from "./assets/insomnia.svg";
 import git from "./assets/git.svg";
 
-import guestbooksvg from "./assets/guestbook.svg";
-
-import english from "./assets/english.svg";
-import spanish from "./assets/spanish.svg";
-import german from "./assets/german.svg";
-
 import { ContactModal } from "./components/ContactModal";
+import { IdiomsCard } from "./components/IdiomsCard";
+import { FastActionButton } from "./components/FastActionButton";
 
 function App() {
   const [modalVisible, setModalVisible] = React.useState(false);
 
+  const handleFABClick = () => {
+    setModalVisible(true);
+  };
+
   return (
     <>
       <ContactModal visible={modalVisible} setVisible={setModalVisible} />
-      <div className="fab-container">
-        <button
-          className="guestbook-btn"
-          onClick={() => {
-            setModalVisible(true);
-          }}
-        >
-          <img
-            className="tech-logo guestbook"
-            src={guestbooksvg}
-            alt="Guest Book icon"
-          />
-        </button>
-      </div>
+      <FastActionButton handleOnClick={handleFABClick} />
       <div className="card">
         {/* TODO: Add github profile pic */}
         <h1>Sobre mim</h1>
@@ -402,24 +389,7 @@ function App() {
         </section>
       </div>
       <div className="card">
-        <h1>Idiomas</h1>
-        <div className="idiom-cards">
-          <div className="idiom-card english">
-            <img style={{ width: 70 }} src={english} alt="USA flag" />
-            <p>Fluente</p>
-            <p>Estudei no CNA por 6 anos</p>
-          </div>
-          <div className="idiom-card spanish">
-            <img style={{ width: 70 }} src={spanish} alt="Spain flag" />
-            <p>Intermediário</p>
-            <p>Estudei no CNA por 2 anos</p>
-          </div>
-          <div className="idiom-card german">
-            <img style={{ width: 70 }} src={german} alt="Germany flag" />
-            <p>Intermediário</p>
-            <p>Estudando no Goethe Institut há ~2 anos</p>
-          </div>
-        </div>
+        <IdiomsCard />
       </div>
     </>
   );
