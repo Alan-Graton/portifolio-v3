@@ -2,11 +2,13 @@ import * as yup from "yup";
 
 const contactSchema = yup.object({
   name: yup.string(),
-  message: yup.string().required("Mensagem é obrigatória."),
+  email: yup.string().required("E-mail obrigatório").email("E-mail inválido"),
+  message: yup.string().required("Mensagem obrigatória."),
 });
 
 const DEFAULT_VALUES = {
   name: "",
+  email: "",
   message: "",
 };
 
