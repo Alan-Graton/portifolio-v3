@@ -52,8 +52,16 @@ body {
   min-height: 100vh;
 }
 
+input {
+  width: 100%;
+}
+
 input, textarea, button {
   resize: none;
+
+  padding: 10px;
+
+  outline: none;
 
   font-family: Poppins, sans-serif;
   letter-spacing: 2px;

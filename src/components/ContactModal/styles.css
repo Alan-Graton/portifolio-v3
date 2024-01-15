@@ -57,10 +57,7 @@
 }
 
 .close-btn {
-  outline: none;
-  border: none;
-
-  background-color: transparent;
+  cursor: pointer;
 }
 
 .contact-modal .body {
@@ -74,11 +71,16 @@
   padding: 10px;
 }
 
-.guestbook-name,
-.guestbook-message {
-  padding: 10px;
+.form-error-message {
+  font-size: 12px;
+}
 
-  outline: none;
+.guestbook-input-group {
+  gap: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .contact-modal .footer {
@@ -107,9 +109,3 @@
 
 .submit-btn {
 }
-
-/* @media(max-width: 397px) {
-  .contact-modal .footer {
-    justify-content: space-between;
-  }
-} */
