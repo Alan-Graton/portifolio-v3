@@ -1,3 +1,4 @@
+import { X } from "lucide-react";
 import "./styles.css";
 
 export function ContactModal({ visible, setVisible }) {
@@ -12,9 +13,7 @@ export function ContactModal({ visible, setVisible }) {
           <div className="contact-modal content">
             <div className="contact-modal header">
               <p>Que tal me mandar em e-mail?</p>
-              <button className="close-btn" onClick={() => setVisible(false)}>
-                X
-              </button>
+              <X onClick={() => setVisible(false)} />
             </div>
             <div className="contact-modal body">
               <input
