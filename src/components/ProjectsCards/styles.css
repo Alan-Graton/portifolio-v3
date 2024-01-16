@@ -1,0 +1,30 @@
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  gap: 2.5em;
+  padding: 10px;
+}
+
+.project-card {
+  cursor: pointer;
+
+  width: 20rem;
+  height: 20rem;
+
+  outline: 1px solid #ffffff46;
+  border-radius: 8px;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.project-card:hover {
+  outline: 1px solid #ffffff;
+
+  transform: translateY(-10px);
+}
+
+.fenix-projects {
+}

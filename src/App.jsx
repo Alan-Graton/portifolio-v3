@@ -4,6 +4,7 @@ import { ContactModal } from "./components/ContactModal";
 import { IdiomsCard } from "./components/IdiomsCard";
 import { FastActionButton } from "./components/FastActionButton";
 import { TechsCards } from "./components/TechsCards";
+import { ProjectsCards } from "./components/ProjectsCards";
 
 import "./App.css";
 
@@ -35,17 +36,9 @@ function App() {
         <TechsCards />
       </div>
       <div className="card">
-        <h1>Experiências</h1>
-        <section>
-          <h2>Valiant Group</h2>
-          <h3>Descrição</h3>
-          <p>
-            Minha primeira e atual experiência profissional, onde pude
-            aprender/ensinar diversas tecnologias.
-          </p>
-          <h4>Projetos</h4>
-          <ul>
-            <li style={{ textAlign: "start" }}>
+        <ProjectsCards />
+        {/* <ul> */}
+        {/* <li style={{ textAlign: "start" }}>
               Fenix Portal {"(Portal Web)"}
               <p>
                 <strong>Paritcipação: </strong>Ingressei no projeto já em
@@ -158,8 +151,8 @@ function App() {
               <p>
                 <strong>OBS:</strong> Disponível para Android e iOS.
               </p>
-            </li>
-            <li style={{ textAlign: "start" }}>
+            </li> */}
+        {/* <li style={{ textAlign: "start" }}>
               Telemedicina {"E-saúde"} {"(App Mobile)"}
               <p>
                 <strong>Participação:</strong> Único participante do projeto.
@@ -232,19 +225,11 @@ function App() {
                   </ul>
                 </li>
               </ul>
-            </li>
-          </ul>
-        </section>
+            </li> */}
+        {/* </ul> */}
 
         <section>
-          <h2>Grupo Intelsis</h2>
-          <h3>Descrição</h3>
-          <p>
-            Participei em projetos SAP através de uma parceria entre a{" "}
-            <strong>Valiant Group</strong> & <strong>Grupo Intelsis</strong>.
-          </p>
-          <h4>Projetos</h4>
-          <ul>
+          {/* <ul>
             <li style={{ textAlign: "start" }}>LATAM</li>
             <ul>
               <li style={{ textAlign: "start" }}>
@@ -274,7 +259,7 @@ function App() {
                 auxílio de outro desenvolvedor Fiori
               </p>
             </ul>
-          </ul>
+          </ul> */}
         </section>
       </div>
       <div className="card">
