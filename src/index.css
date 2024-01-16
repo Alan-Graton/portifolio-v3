@@ -1,13 +1,16 @@
 :root {
-  font-family: Poppins, sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
+  /* font-family: Poppins, sans-serif; */
+  /* font-family: 'Nunito sans', sans-serif; */
+  /* font-family: proxima-nova, sans-serif; */
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: #ffffffde;
-  background-color: #242424;
+  color: #ebe9fc;
+  background-color: #3b3b3b;
 
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -56,14 +59,24 @@ input {
   width: 100%;
 }
 
-input, textarea, button {
+input, textarea {
+  background-color: #282828;
+
+  border: 1px solid #f1f1f1;
+
+  border-radius: 4px;
+}
+
+input,
+textarea,
+button {
   resize: none;
 
-  padding: 10px;
+  padding: 15px;
 
   outline: none;
 
-  font-family: Poppins, sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   letter-spacing: 2px;
 }
 
