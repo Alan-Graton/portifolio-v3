@@ -28,7 +28,7 @@
 }
 
 .idiom-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
 
   outline: 1px solid #ffffff;
 }
