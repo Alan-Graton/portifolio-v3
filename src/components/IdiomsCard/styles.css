@@ -1,0 +1,38 @@
+.idiom-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  padding: 6px;
+
+  gap: 2.5em;
+}
+
+.idiom-card {
+  background-color: #ffffff10;
+
+  width: 5em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 8px;
+  outline: 1px solid #ffffff46;
+
+  padding: 10px;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.idiom-card:hover {
+  transform: translateY(-5px);
+
+  outline: 1px solid #ffffff;
+}
+
+.flags {
+  width: 70px;
+}

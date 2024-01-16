@@ -26,35 +26,6 @@
   gap: 2.5em;
 }
 
-.tech-card {
-  width: 70px;
-  height: 70px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  padding: 5px;
-
-  background-color: #ffffff10;
-
-  border-radius: 8px;
-  outline: 1px solid #ffffff46;
-
-  transition: all 0.2s ease-in-out;
-}
-
-.tech-logo {
-  width: 50px;
-  height: 50px;
-}
-
-.tech-card:hover {
-  outline: 1px solid #ffffff;
-
-  transform: translateY(-5px);
-}
-
 .guestbook {
   position: absolute;
 
@@ -85,14 +56,14 @@
 
   outline: none;
 
-  border: 2px solid #525252d0;
+  border: 2px solid #949393;
 
   border-radius: 8px;
 
   font-weight: bold;
   font-size: 16px;
 
-  background-color: transparent;
+  background-color: #5d5c66a6;
   backdrop-filter: blur(5px);
 
   transition: all 0.2s ease-in-out;
@@ -100,6 +71,8 @@
 
 .guestbook-btn:hover {
   border: 2px solid #ffffff;
+
+  /* box-shadow: 0 20px 80px -10px #e45c07; */
 }
 
 .guestbook-btn::before {
@@ -109,41 +82,6 @@
 
   width: 50px;
   height: 50px;
-}
-
-.idiom-cards {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-
-  padding: 6px;
-
-  gap: 2.5em;
-}
-
-.idiom-card {
-  background-color: #ffffff10;
-
-  width: 15em;
-  height: 15em;
-
-  border-radius: 8px;
-  outline: 1px solid #ffffff46;
-
-  padding: 10px;
-
-  transition: all 0.2s ease-in-out;
-}
-
-.idiom-card:hover {
-  transform: translateY(-5px);
-
-  outline: 1px solid #ffffff;
-}
-
-.flags {
-  width: 70px;
 }
 
 @media (max-width: 580px) {

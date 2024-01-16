@@ -1,0 +1,28 @@
+.tech-card {
+  width: 70px;
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 5px;
+
+  background-color: #ffffff10;
+
+  border-radius: 8px;
+  outline: 1px solid #ffffff46;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.tech-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.tech-card:hover {
+  outline: 1px solid #ffffff;
+
+  transform: translateY(-5px);
+}
